@@ -93,7 +93,7 @@ zkevm.address-ger-manager: "0x580bda1e7a0cfae92fa7f6c20a3794f169ce3cfb"
 
 zkevm.l1-chain-id: 1
 
-zkevm.l1-rpc-url:
+#zkevm.l1-rpc-url:
 
 # The rollup identifier.
 # NOTE: This flag should be renamed `zkevm.rollup-id`.
@@ -125,10 +125,11 @@ zkevm.l1-first-block: 20572039
 # If not specified, all eth_sendRawTransaction calls will be redirected to l2-sequencer-rpc-url.
 # Default: ""
 # zkevm.pool-manager-url: http://pool-manger.node.0xsilicon.net
-zkevm.l2-sequencer-rpc-url: https://rpc.node.silicon.network
-zkevm.l2-chain-id: 2355
+zkevm.l2-sequencer-rpc-url: https://sequencer.node.silicon.network
 
-zkevm.l2-datastreamer-url: sequencer-ds.node.0xsilicon.net:80
+zkevm.l2-datastreamer-url: sequencer-ds.node.0xsilicon.net:443
+
+zkevm.l2-chain-id: 2355
 
 
 # --------------------------------------------------------------------------------------------------
