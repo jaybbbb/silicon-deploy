@@ -127,7 +127,7 @@ zkevm.l1-first-block: 20572039
 # zkevm.pool-manager-url: http://pool-manger.node.0xsilicon.net
 zkevm.l2-sequencer-rpc-url: https://sequencer.node.silicon.network
 
-zkevm.l2-datastreamer-url: sequencer-ds.node.0xsilicon.net:443
+zkevm.l2-datastreamer-url: sequencer-ds.node.0xsilicon.net:80
 
 zkevm.l2-chain-id: 2355
 
